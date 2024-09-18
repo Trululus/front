@@ -1,0 +1,13 @@
+.logo{
+    background-image: url('../assets/logo.png');
+    background-size: 95%;
+    background-repeat: no-repeat;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    transition: background-image 0.3s ease-in-out;
+}
+
+.logo:hover {
+    background-image: url('../assets/logo-hover.png');
+}

@@ -1,0 +1,11 @@
+.login-form {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 97vh;
+}
+
+.login{
+    gap: 1.7rem;
+}

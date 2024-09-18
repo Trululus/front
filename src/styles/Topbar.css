@@ -1,0 +1,44 @@
+/* .topbar {
+    width: 90px;
+    height: 100%;
+    background-color: rgb(152, 77, 225);
+    display: flex;
+    
+} */
+
+/* Topbar.css */
+
+.topbar {
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    background-color: rgb(152, 77, 225);
+    color: white;
+    gap: 3%;
+  }
+
+.nav-bar {
+  margin-left: 3%;
+}
+  
+  
+.nav-bar ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    padding: 0;
+    font-weight: bold;
+}
+  
+.nav-bar li .active {
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+}
+
+.options {
+  display: flex;
+  gap: 12%;
+  justify-content: space-evenly;
+  margin-left: 2.5%;
+}
